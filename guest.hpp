@@ -8,10 +8,10 @@ class guest{
     int orang;
 
     public:
-    void set_guest(int id, string nm, int or){
+    void set_guest(int id, string nm, int org){
         guest_id = id;
         nama = nm;
-        orang = or;
+        orang = org;
 
     }
     void get_guest(){
